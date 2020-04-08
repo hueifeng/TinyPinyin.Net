@@ -22,7 +22,7 @@ namespace TinyPinyin
         }
         public static string ToPinyin(string inputStr, string trie, List<IPinyinDict> pinyinDictList, string separator)
         {
-            if (inputStr == null || inputStr.Length == 0)
+            if (string.IsNullOrEmpty(inputStr))
             {
                 return inputStr;
             }
