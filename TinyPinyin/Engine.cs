@@ -12,7 +12,7 @@ namespace TinyPinyin
             {
                 foreach (IPinyinDict dict in pinyinDictSet)
                 {
-                    if (dict != null && dict.Words() != null && dict.Words().Contains(wordInDict))
+                    if (dict?.Words() != null && dict.Words().Contains(wordInDict))
                     {
                         return dict.ToPinyin(wordInDict);
                     }

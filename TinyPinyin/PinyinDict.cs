@@ -24,11 +24,7 @@ namespace TinyPinyin
         public List<string> Words()
         {
             var mappingResult = Mapping();
-            if (mappingResult == null)
-            {
-                return null;
-            }
-            return mappingResult.Keys.Select(key => key).ToList();
+            return mappingResult?.Keys.Select(key => key).ToList();
         }
     }
 }

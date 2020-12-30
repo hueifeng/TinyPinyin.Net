@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace TinyPinyin.Data
+﻿namespace TinyPinyin.Data
 {
     public static class PinyinData
     {
@@ -8,7 +6,7 @@ namespace TinyPinyin.Data
 
         public static char MAX_VALUE = (char)40869;
 
-        public static String PINYIN_12295 = "LING";
+        public static string PINYIN_12295 = "LING";
 
         public static char CHAR_12295 = (char)12295;
 
@@ -16,12 +14,12 @@ namespace TinyPinyin.Data
 
         public static int PINYIN_CODE_2_OFFSET = 7000 * 2;
 
-        public static int[] BIT_MASKS = new int[] { 1, 2, 4, 8, 16, 32, 64, 128 };
+        public static int[] BIT_MASKS = { 1, 2, 4, 8, 16, 32, 64, 128 };
 
         public static short PADDING_MASK = 256;
 
         //CHECKSTYLE:OFF
-        public static string[] PINYIN_TABLE = new string[]{"", "A", "AI", "AN", "ANG", "AO", "BA", "BAI",
+        public static string[] PINYIN_TABLE = {"", "A", "AI", "AN", "ANG", "AO", "BA", "BAI",
             "BAN", "BANG", "BAO", "BEI", "BEN", "BENG", "BI", "BIAN", "BIAO", "BIE", "BIN", "BING",
             "BO", "BU", "CA", "CAI", "CAN", "CANG", "CAO", "CE", "CEN", "CENG", "CHA", "CHAI",
             "CHAN", "CHANG", "CHAO", "CHE", "CHEN", "CHENG", "CHI", "CHONG", "CHOU", "CHU", "CHUAI",
