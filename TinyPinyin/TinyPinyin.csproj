@@ -9,9 +9,9 @@
     <Description>适用于.Net平台的快速、低内存占用的汉字转拼音库。核心算法来自TinyPinyin(https://github.com/promeG/TinyPinyin)</Description>
     <RepositoryUrl>https://github.com/hueifeng/TinyPinyin.Net</RepositoryUrl>
     <PackageProjectUrl>https://github.com/hueifeng/TinyPinyin.Net</PackageProjectUrl>
-    <AssemblyVersion>1.0.0.1</AssemblyVersion>
-    <FileVersion>1.0.0.1</FileVersion>
-    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.0.2</AssemblyVersion>
+    <FileVersion>1.0.0.2</FileVersion>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
